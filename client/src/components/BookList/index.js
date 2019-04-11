@@ -1,7 +1,6 @@
 import React from "react";
 import Thumbnail from "../Thumbnail";
 import { Container, Row, Col } from "../Grid";
-import "./style.css";
 
 
 // Exporting both BookList and BookListItem from this file
@@ -34,7 +33,7 @@ export function BookListItem({
             <h4>{authors}</h4>
             <p> Description: { description}</p>
             <a className = "btn btn-dark" rel="noreferrer noopener" target="_blank" href={link}>View</a>
-            <Button className = "btn btn-dark" />
+            <Button/>
           </Col>
         </Row>
       </Container>

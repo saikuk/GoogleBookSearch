@@ -1,8 +1,7 @@
 import React from "react";
-// import "./style.css";
 
 const Input = (props) => (
-	<header className = "card mt-4">
+	<header className = "card ">
         <div className = "card-header">
             <h3> 
                 <i className = "fa fa-far fa-book" aria-hidden = "true"></i> Book Search
