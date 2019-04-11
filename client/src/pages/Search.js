@@ -4,7 +4,6 @@ import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import Input from "../components/Input";
 import { BookListItem, BookList } from "../components/BookList";
-import "./style.css";
 
 
 class Search extends Component {

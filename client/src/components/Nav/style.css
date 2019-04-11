@@ -21,6 +21,10 @@ body {
 .nav li {
     display: inline-block;
 }
+
+a{
+    color: darkblue;
+}
   
 nav{
       width: auto;

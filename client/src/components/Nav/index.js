@@ -3,7 +3,7 @@ import "./style.css";
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-2">
+    <nav className="navbar navbar-expand-lg">
       <a className="navbar-brand" href="/">
         Google Books
       </a>
@@ -11,7 +11,7 @@ function Nav() {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+        <ul className="navbar-nav mr-auto mt-lg-0">
           <li className="nav-item active">
             <a className="nav-link" href="/search">Search</a>
           </li>

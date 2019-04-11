@@ -1,6 +1,8 @@
 import React from "react";
 import Thumbnail from "../Thumbnail";
 import { Container, Row, Col } from "../Grid";
+import "./style.css";
+
 
 // Exporting both BookList and BookListItem from this file
 

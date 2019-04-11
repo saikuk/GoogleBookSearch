@@ -3,7 +3,6 @@ import Jumbotron from "../components/Jumbotron";
 import API from "../utils/API";
 import { BookListItem, BookList } from "../components/BookList";
 import { Container } from "../components/Grid";
-import "./style.css";
 
 class Saved extends Component {
   state = {
