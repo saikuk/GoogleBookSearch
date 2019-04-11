@@ -7,7 +7,7 @@ import { BookListItem, BookList } from "../components/BookList";
 
 
 class Search extends Component {
-  state = {// The state will be the array of books and the user input
+  state = {
     books: [],
     bookInput: ""
   };
@@ -21,7 +21,6 @@ class Search extends Component {
     this.setState({ bookInput: event.target.value })
   };
   
-  // When the user click on the serach button
   handleFormSubmit = event => {
     event.preventDefault();
       API.searchBooks(this.state.bookInput) // the searchBooks route is called with the title entedred by the user
@@ -29,7 +28,6 @@ class Search extends Component {
         .catch(err => console.log(err));
   };
 
-  // When the user click on the save button
   handleSavedButton = id => {
     const book = this.state.books.find(book => book.id === id);
 

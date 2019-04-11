@@ -11,7 +11,7 @@ const Input = (props) => (
         <div className = "card-body">
             <form>
                 <div className = "form-group">
-                    <label htmlFor = "Query">What Book are you looking for...</label>
+                    <label htmlFor = "Query">Book</label>
                     <input className="form-control"
                         value={props.search}
                         type="text"
